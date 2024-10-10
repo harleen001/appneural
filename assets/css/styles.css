@@ -1,0 +1,252 @@
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    margin-top: 10%;
+    padding-left: 100px;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left, .right {
+    text-align: justify;
+    padding: 20px;
+ 
+    flex: 1;
+}
+.right{
+    padding-top: 0px;
+
+}
+
+.right > img{
+width: 600px;
+height: 400px;
+}
+h1{
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 250;
+}
+h2{
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 350;  
+}
+.skills{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;  
+}
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px; 
+    margin: 100px;
+}
+
+.grid-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    background: #003973;  
+    background: -webkit-linear-gradient(to right, #E5E5BE, #003973);  
+    background: linear-gradient(to right, #E5E5BE, #003973); 
+}
+
+.grid-item img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.grid-item h3 {
+    margin: 10px 0 5px;
+    font-weight: 600;
+}
+
+.grid-item p {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+        .grid-container {
+        grid-template-columns: 1fr;
+        margin: 10px;
+    }
+
+    .right > img{
+        width: 400px;
+        height: 300px;
+        margin-left: -10%;
+}
+}
+@media (max-width: 900px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1000; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+margin-top: -5%;
+margin-left:200px ;
+    padding-left: 250px;
+    margin-right: 150px;
+    
+    border-radius: 200px;
+    background-color: 
+    #4beb60;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    
+}
+
+.form-container {
+    flex: 1;
+    max-width: 700px;
+    
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-left: 120px;
+    padding: 10px 55px;
+    text-align: center;
+    background-color: 
+    #21762c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: 
+    #23c539;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.image-container {
+    flex: 1;
+    margin-top: 10%;
+    margin-left: 5%;
+    max-width: 600px;
+}
+
+.image-container img {
+    width: 60%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .container2 {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 2%;
+        text-align: center;
+
+        flex-direction: column; 
+        align-items: flex-start; 
+        padding: 20px;
+    }
+
+    .form-container {
+        padding-left: 5%;
+        max-width: 100%;
+        margin-right: 0; 
+        margin-bottom: 20px;
+    }
+
+    .image-container {
+        max-width: 90%; 
+    }
+    
+    button {
+        width: 100%; 
+        margin: 0; 
+    }
+}

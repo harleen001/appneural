@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppNeural Assignment</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="shortcut icon" href="assets/img/contact.jpg" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="left" data-aos="fade-right" data-duration="5000" >
+            
+            <h1>I’m Harleen Singh, a web developer & 3D creator based in India. Available for freelance & collaborations.</h1>
+            <p class ="skills">➢ Web Development
+                ➢ UI Designing
+                ➢ 3D Modeling
+</p>
+        </div>
+        <div  class="right"><img src="assets/img/background.png" alt=""></div>
+    </div>
+
+
+    <div class="grid-container">
+
+    </div>
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close-button" id="close-button">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+
+
+
+    <div class="container2">
+        <div class="form-container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">SEND</button>
+                <div class="error-message" id="error-message"></div>
+            </form>
+        </div>
+        <div class="image-container">
+            <img src="assets/img/contact.jpg" alt="Contact Image">
+        </div>
+    </div>
+
+<script src="assets/js/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+  
+</body>
+</html>

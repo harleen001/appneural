@@ -1,0 +1,62 @@
+[
+    {
+        "title": "PrecisionLib240",
+        "description": "C++ MIT Licensed Open Source Freeware Library with versatile functions.",
+        "imageUrl": "assets/img/projects/1.png"
+    },
+    {
+        "title": "Personal Portfolio",
+        "description": "harleensingh.vercel.app is personal portfolio/workfolio of Harleen Singh.",
+        "imageUrl": "assets/img/projects/2.png"
+    },
+    {
+        "title": "3 13 25",
+        "description": "Three Thirteen TwentyFive is Personal Playground space of three tech head friends.",
+        "imageUrl": "assets/img/projects/3.png"
+    },
+    {
+        "title": "Rebel Tales",
+        "description": "Rebel Tales is a Starwars inspired concept of Droids from Starwars Universe.",
+        "imageUrl": "assets/img/projects/4.png"
+    },
+    {
+        "title": "GistGen AI",
+        "description": "GistGen AI is an Open Article cum News Summarizer with integration of Rapid API.",
+        "imageUrl": "assets/img/projects/5.png"
+    },
+    {
+        "title": "Buildspace Devs",
+        "description": "Buildspace Devs built during nights and weekends cohort of Buildspace itself is universe where you can find devs.",
+        "imageUrl": "assets/img/projects/6.png"
+    },
+    {
+        "title": "GNDU Noteline",
+        "description": "GNDU Noteline is a team project led by me for University students to provide them notes based on their filters.",
+        "imageUrl": "assets/img/projects/7.png"
+    },
+    {
+        "title": "CRUD Operations",
+        "description": "It is a learning-based project to perform create, read, update and delete operations in mongoose using express.",
+        "imageUrl": "assets/img/projects/8.png"
+    },
+    {
+        "title": "Firebase Authentication",
+        "description": "Firebase Authentication is a simple prototype to implement Authentication as a service using BaaS.",
+        "imageUrl": "assets/img/projects/9.png"
+    },
+    {
+        "title": "Greko Website",
+        "description": "This is a simple revamped prototype of the famous Greko Outlets all over the world.",
+        "imageUrl": "assets/img/projects/10.png"
+    },
+    {
+        "title": "GNDU RC Jalandhar",
+        "description": "gndurcjal.in is the official campus website of Gndu Jalandhar Campus for the students to access latest news, notices.",
+        "imageUrl": "assets/img/projects/11.png"
+    },
+    {
+        "title": "Custom URL",
+        "description": "It is a simple tool to generate real-time custom URL of any already defined URL to mask it.",
+        "imageUrl": "assets/img/projects/12.png"
+    }
+]
