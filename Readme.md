@@ -5,7 +5,17 @@ Welcome to the AppNeural Frontend Internship project! This project showcases a c
 ### Folder Structure
 The project follows a structured approach to organize files:
 
-assets ├── css │ └── styles.css ├── js │ └── script.js └── img └── [Project Images] index.html projects.json
+css
+Copy code
+assets
+├── css
+│   └── styles.css
+├── js
+│   └── script.js
+└── img
+    └── [Project Images]
+index.html
+projects.json 
 
 assets: Contains all the assets including CSS, JavaScript, and images.
 index.html: The main HTML file that links to the stylesheet and JavaScript.
@@ -14,13 +24,12 @@ Functionality
 Project Display
 The project data is stored in projects.json in the following format:
 
-``` json
+```json
 {
     "title": "PrecisionLib240",
     "description": "C++ MIT Licensed Open Source Freeware Library with versatile functions.",
     "imageUrl": "assets/img/projects/1.png"
-}
-
+}```
 When a request is made to fetch the project data, the application retrieves the information and displays it on the webpage. If the data cannot be fetched, an appropriate error message is shown.
 
 Popup Details
@@ -32,7 +41,7 @@ The contact form includes basic validations to enhance user interaction. It chec
 Getting Started
 To run the project locally:
 
-Clone the repository.
+###Clone the repository.
 Open index.html in your web browser.
 Prerequisites
 No specific prerequisites are needed to view the project. However, ensure you have a modern web browser for the best experience.
