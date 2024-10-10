@@ -32,16 +32,16 @@ The project data is stored in projects.json in the following format:
 </code>
 When a request is made to fetch the project data, the application retrieves the information and displays it on the webpage. If the data cannot be fetched, an appropriate error message is shown.
 
-###Popup Details
+## Popup Details
 To enhance user experience, clicking on a project name triggers a popup that displays more details about the project. This feature is implemented using simple JavaScript and styled with CSS to ensure a seamless look and feel.
 
-###Contact Form
+## Contact Form
 The contact form includes basic validations to enhance user interaction. It checks if the email contains an "@" symbol and verifies that all input fields are filled. If validation fails, an error message is displayed. Upon successful submission, a relevant success message is generated.
 
-###Getting Started
+### Getting Started
 To run the project locally:
 
-###Clone the repository.
+### Clone the repository.
 Open index.html in your web browser.
 ###Prerequisites
 No specific prerequisites are needed to view the project. However, ensure you have a modern web browser for the best experience.
